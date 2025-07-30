@@ -28,7 +28,7 @@
     "react-toastify": "^9.1.1",
     "serve": "^14.1.2",
     "translate-google-api": "^1.0.4",
-    "web-vitals": "^2.1.4",
+    "web-vitals": "^5.0.3",
     "wow.js": "^1.2.2",
     "wowjs": "^1.1.3"
   },
