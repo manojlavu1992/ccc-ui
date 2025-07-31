@@ -1,0 +1,29 @@
+version: 2
+updates:
+  - package-ecosystem: 'npm'
+    directory: '/'
+    open-pull-requests-limit: 10
+    target-branch: 'main'
+    rebase-strategy: "disabled"
+    schedule:
+      interval: 'monthly'
+    labels:
+      - 'dependencies'
+    commit-message:
+      prefix: 'deps'
+    pull-request-branch-name:
+      separator: "-"
+
+  - package-ecosystem: 'docker'
+    directory: '/'
+    open-pull-requests-limit: 10
+    target-branch: 'main'
+    rebase-strategy: "disabled"
+    schedule:
+      interval: 'monthly'
+    labels:
+      - 'dependencies'
+    commit-message:
+      prefix: 'deps'
+    pull-request-branch-name:
+      separator: "-"
